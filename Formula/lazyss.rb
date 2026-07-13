@@ -2,30 +2,30 @@
 class Lazyss < Formula
   desc "Terminal machine cockpit for SSH and AWS SSM"
   homepage "https://github.com/hmrdkn-labs/lazyss"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      sha256 "9b306f08973d7e6c7daa9cf0c292aa86dea6e0f198c1c153b5f73e32969fc88b"
-      url "https://github.com/hmrdkn-labs/lazyss/releases/download/v0.1.1/lazyss_0.1.1_darwin_amd64.tar.gz"
+      sha256 "7a29f5ba6a1afa0e64573e58064969211f3c52f92975ed01d861ffc4991ecf00"
+      url "https://github.com/hmrdkn-labs/lazyss/releases/download/v0.2.0/lazyss_0.2.0_darwin_amd64.tar.gz"
     end
 
     on_arm do
-      sha256 "321bbeb1f4db340b83911849188acd8e9ebfb4d4d499dda086ed2882bdb49d1d"
-      url "https://github.com/hmrdkn-labs/lazyss/releases/download/v0.1.1/lazyss_0.1.1_darwin_arm64.tar.gz"
+      sha256 "88856cf7b511ebffb68a9b2dc7198d5f4e99a1fec03a4f1a1874ad1f3eda860f"
+      url "https://github.com/hmrdkn-labs/lazyss/releases/download/v0.2.0/lazyss_0.2.0_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "b03d3d507259fe0988e026c1ff48cc85776a8e9e97aa2456ec4f908f3c4ef104"
-      url "https://github.com/hmrdkn-labs/lazyss/releases/download/v0.1.1/lazyss_0.1.1_linux_amd64.tar.gz"
+      sha256 "95d3d8124a5b3c0fec731d3feeebe6778b1d52dc64392a886e38e1d81c6cbd23"
+      url "https://github.com/hmrdkn-labs/lazyss/releases/download/v0.2.0/lazyss_0.2.0_linux_amd64.tar.gz"
     end
 
     on_arm do
-      sha256 "efefaa0f297d139499f263c5eec83b01ff52d1c60db247ba3934a9ff6a18d134"
-      url "https://github.com/hmrdkn-labs/lazyss/releases/download/v0.1.1/lazyss_0.1.1_linux_arm64.tar.gz"
+      sha256 "07d86000e4df487ce922b667d3dc1e8d41aa21ac1a2e2a502636b325d83f6cf7"
+      url "https://github.com/hmrdkn-labs/lazyss/releases/download/v0.2.0/lazyss_0.2.0_linux_arm64.tar.gz"
     end
   end
 
