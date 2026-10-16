@@ -1,6 +1,6 @@
 cask "agent-awake" do
-  version "0.1.3"
-  sha256 "298ba8b013a1eb9a7ad4a43aa5a8a32330ee3bd0e986d25a66961c30e8388a02"
+  version "0.1.4"
+  sha256 "478cec0659b181b215ebccbd88bb6955efb6dea331de5428a8b8df37eaef3d3c"
 
   url "https://github.com/hmrdkn-labs/agent-awake/releases/download/v#{version}/AgentAwake-#{version}.dmg"
   name "Agent Awake"
